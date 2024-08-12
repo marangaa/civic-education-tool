@@ -64,8 +64,8 @@ export default function SignIn({ providers }) {
                 <div className="mt-4 text-center">
                     <p className="text-sm text-gray-600">
                         Don't have an account?{' '}
-                        <Link href="/auth/signup">
-                            <a className="text-indigo-600 hover:text-indigo-800">Sign Up</a>
+                        <Link href="/auth/signup" className="text-indigo-600 hover:text-indigo-800">
+                            Sign Up
                         </Link>
                     </p>
                 </div>
